@@ -1,0 +1,10 @@
+@if (control) {
+<label
+  >{{ label() }}
+  <input
+    type="number"
+    formGroupName="{{ groupName() }}"
+    [formControl]="control"
+  />
+</label>
+}

@@ -1,0 +1,12 @@
+<form [formGroup]="form">
+  <ng-container
+    *ngComponentOutlet="userForm.comp | async; inputs: userForm.props"
+  ></ng-container>
+  <ng-container
+    *ngComponentOutlet="addressForm.comp | async; inputs: addressForm.props"
+  ></ng-container>
+</form>
+
+<p>
+  {{ form.valueChanges | async | json }}
+</p>

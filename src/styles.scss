@@ -1,0 +1,33 @@
+input {
+  border: 1px solid #000;
+  border-radius: 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}

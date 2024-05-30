@@ -1,0 +1,8 @@
+<div class="card">
+  <h2>{{ title() }}</h2>
+  @for (field of fields(); track $index) {
+  <ng-container
+    *ngComponentOutlet="field.component | async; inputs: field.props"
+  ></ng-container>
+  }
+</div>
